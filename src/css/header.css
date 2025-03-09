@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #202124;
+    
+    color: #e8e8e8;
+}
+
+header {
+    background-color: #202124;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: calc(100% - 30px);
+    z-index: 1000;
+    /* padding-left: 15px; */
+    font-size: 14px;
+}
+
+
+.head-left {
+    position: relative;
+    bottom: 4px;
+    left: 1px;
+}
+
+.head-left a{
+    color: #e8e8e8;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.head-left a:hover {
+    color: #f1f1f1;
+}
+
+
+
+
+
+.head-right {
+    display: flex;
+    flex-direction: row;
+    color: #e8e8e8;
+    position: relative;
+    bottom: 4px;
+}
+
+
+.mail-image {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    position: relative;
+    top: 1px;
+    right: 3px;
+}
+.mail-image a{
+    font-size: 13px;
+    color: #f1f1f1;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.mail-image a:hover{
+    color: #f1f1f1;
+    text-decoration: underline;
+}
+
+.head-icon-div {
+    display: flex;
+    align-items: center;
+    
+    cursor: pointer;
+}
+
+.apps-head {
+    margin-right: 19px;
+}
+
+.filter-head {
+    margin-right: 23px;
+    width: 101%;
+
+}
+
+.head-icon {
+    filter: invert(1);
+}
+
+
+.mail-image a:hover{
+    color: #f1f1f1;
+}
+
+
+
+
+.profile-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    
+}
+.profile-logo img{
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
