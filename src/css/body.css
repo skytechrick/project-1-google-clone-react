@@ -19,3 +19,92 @@
     height: 92px;
 
 }
+
+
+.search-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.search-bar-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #4e5257;
+    border-radius: 24px;
+    height: 48px;
+    max-width: 584px;
+}
+
+.search-icon {
+    margin-left: 16px;
+    margin-right: 12px;
+    margin-top: 4px;
+}
+
+.search-icon img {
+    height: 20px;
+
+}
+
+.search-input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    width: 65%;
+}
+.search-input input{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    width: 100%;
+    letter-spacing: 1.1px;
+}
+
+.search-close {
+    margin-right: 16px;
+    margin-left: 27px;
+    margin-top: 4px;
+}
+
+.search-close::after {
+    position: relative;
+    bottom: 4px;
+    left: 12px;
+    content: '';
+    border-right: 1px solid rgb(142, 142, 142);
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+.search-mic {
+    margin-right: 3px;
+    margin-left: 10px;
+    margin-top: 4px;
+
+}
+
+.search-mic img {
+    height: 23px;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.search-camera-photo {
+    display: flex;
+    align-items: center;
+}
+
+.search-camera-photo img {
+    cursor: pointer;
+    height: 23px;
+}
