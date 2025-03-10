@@ -7,13 +7,13 @@ export default function Header() {
     return (
         <header>
             <div className="head-left">
-                <a href="/about">About</a>
-                <a href="/store">Store</a>
+                <a href="/#">About</a>
+                <a href="/#">Store</a>
             </div>
             <div className="head-right">
                 <div className="mail-image">
-                    <a href="/" style={{marginRight: "5px"}}>Gmail</a>
-                    <a href="/">Images</a>
+                    <a href="/#" style={{marginRight: "5px"}}>Gmail</a>
+                    <a href="/#">Images</a>
                 </div>
                 <div className="head-icon-div filter-head">
                     <img src={filterImg} alt="Filter icon"/>

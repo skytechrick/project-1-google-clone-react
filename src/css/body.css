@@ -1,0 +1,21 @@
+
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 69px;
+}
+
+.google-text-big-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-text-big-image img {
+    height: 92px;
+
+}

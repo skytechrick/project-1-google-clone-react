@@ -16,7 +16,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     width: calc(100% - 30px);
     z-index: 1000;
     /* padding-left: 15px; */
