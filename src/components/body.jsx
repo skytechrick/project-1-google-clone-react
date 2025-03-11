@@ -40,12 +40,28 @@ export default function Body() {
             </div>
 
             
-            <div>
+            <div className="search-buttons">
 
+                <div>
+                    Google Search
+                </div>
+
+                <div>
+                    I'm Feeling Lucky
+                </div>
+                
             </div>
 
-            <div>
-                
+            <div className="google-offered-in">Google offered in:  
+                <a href="">हिन्दी</a>
+                <a href="">বাংলা</a>
+                <a href="">తెలుగు</a>
+                <a href="">मराठी</a>
+                <a href="">தமிழ்</a>
+                <a href="">ગુજરાતી</a>
+                <a href="">ಕನ್ನಡ</a>
+                <a href="">മലയാളം</a>
+                <a href="">ਪੰਜਾਬੀ</a>
             </div>
             
         </div>

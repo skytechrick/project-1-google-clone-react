@@ -108,3 +108,38 @@
     cursor: pointer;
     height: 23px;
 }
+
+
+
+.search-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.search-buttons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4e5257;
+    border-radius: 4px;
+    padding: 10px 16px;
+    margin-right: 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.google-offered-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+.google-offered-in a {
+    color: #7da8ff;
+    margin: 0px 5px;
+}
